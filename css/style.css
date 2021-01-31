@@ -3,10 +3,12 @@
     text-align: center;
 }
 
+
+
 #header {
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
+    background-color: #ffffff;
 }
 
 #header-img {
@@ -35,5 +37,31 @@ h2 {
     display: block;
     margin: 0 auto;
     position: relative;
-    left: 4rem;
+    line-height: 2px;
+}
+
+#section1{
+    text-align: center;
+    
+}
+
+#email{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;;
+
+}
+
+h2{
+    color: #2F9D98;
+}
+
+.fas{
+  color:#2EC0F9;
+  font-size: 40px;
+}
+
+#how-it-works{
+    padding: 20px 20px;
+   
 }
