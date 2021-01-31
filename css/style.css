@@ -1,6 +1,7 @@
 *{
     font-family: roboto , sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -18,7 +19,7 @@
 }
 
 #nav-bar {
-    padding-top: 1.2rem;
+    padding: 20px 20px;
     
 }
 .nav-link {
@@ -67,6 +68,7 @@ h2{
 }   
 
 #price-range {
+    padding: 20px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -77,6 +79,8 @@ h2{
     border: 0.1rem solid #2F9D98;
     box-shadow: 0.2rem 0.4rem #2F9D98;
 }
+
+
 
 .price-list {
     list-style: none;
@@ -101,4 +105,37 @@ h2{
     color: white;
     font-size: 1.2rem;
     padding: 0.5rem;
+}
+
+
+footer{
+    margin: 0;
+}
+
+.footer{
+    padding: 10px 10px;
+    width:100%;
+    height: 50px;
+    background-color: #F6F5F4;
+    
+
+}
+#stylingf{
+   
+}
+
+#stylingf ul {
+    justify-content: center;
+    display: flex;
+
+}
+#stylingf li{
+    list-style: none;
+    padding : 20px 20px;
+}
+
+#stylingf a{
+    text-decoration: none;
+    color: darkcyan;
+
 }
