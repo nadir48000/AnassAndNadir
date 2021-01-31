@@ -1,0 +1,39 @@
+*{
+    font-family: roboto , sans-serif;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+#header-img {
+    display: flex;
+    height: 6rem;
+    width: 8rem;
+}
+
+#nav-bar {
+    padding-top: 1.2rem;
+    
+}
+.nav-link {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #1170fd;
+}
+h2 {
+    text-align: center;
+}
+#container {
+    overflow: hidden;
+}
+
+#form {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 4rem;
+}
